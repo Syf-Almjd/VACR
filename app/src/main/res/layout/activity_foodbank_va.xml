@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Main.About.foodbankVA">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:layout_below="@+id/backbtn"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/moretext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/semibold"
+            android:layout_below="@+id/pic"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:text="VAC Food Bank was established on 3rd July 2021\n for our Villa Angsana Residents with initiate by one of our beloved resident to kick start something small for the Villa Angsana community.\n\n We are currently station in front of the main notice board area at the Clubhouse to give for those in need of the item,\n meanwhile should you are the fortunate one and want to contribute dry items to the VA food bank,\n please welcome to contact management office 03-6252 9881 or email vamcmgmt@gmail.com Lets spread love and care for Villa Angsana Condominium to make a better union during this difficult period for our neighborhood. \n\nEvery bit counts! Thank you."
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="25dp" />
+    </ScrollView>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_button_2"
+        android:text="You Can View here!"
+        android:textColor="@color/black" />
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>

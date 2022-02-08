@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Villa_Services.CarWash">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/backbtn"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/moretext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/semibold"
+            android:text=" App Title: VACR Services \n
+        \n
+VACR is presenting the user with a variety of services that simplify resident's everyday life. And willing to cooperate with condominium managements to provide a wide range of services, delivered by well-qualified and background-checked professionals.
+\n\n
+VACR Services currently provides most of the services residents need during MCO hoping to:
+\n\n
+1- Prevent Covid-19 from spreading\n
+2- Ease Residents life\n
+3- Provide more job opportunities
+\n
+\n
+\n
+
+
+Features: This app will is displaying the following or it will be added soon:
+
+
+\n\n• Beauty services at home:-It include our trained experts who use top-of-the-line products and provide a range of beauty services like massage, pedicure, manicure, waxing, threading, haircutting, etc. at the comfort of your home with our instant booking.
+\n\n• Home Cleaning Services:-A range of home cleaning services to make your life easy. Services for bedroom, bathroom, kitchen, furniture, lawn and pool cleaning as well as deep cleaning for the entire home.
+\n\n• Pest Control Services:-Choose from different pest control services like General pest control, cockroach control, Rat control, bedbug control, Ant Control, Termite control, etc., we ensure your immediate safety.
+\n\n• Home Appliance repair and services at home: - Our experts will examine and repair your home appliances in no time. We also provide repair services for Ac, Washing machines, Dishwashers, refrigerators, microwaves, chimneys, etc. at the earliest.
+\n\n• Plumbing Services at home:-With our trained and professional plumber you can solve all your plumbing problems like leaking pipe, bathroom fitting, sewage, toilet etc.
+\n\n• Electrical Installation and Repair Services at home: - We provide quick and safe services for all electrical work from wiring work to installing of switchboards etc.
+\n\n• Laundry Services: - We provide high-quality laundry, bleaching, and dry cleaning services from picking, washing, ironing, and returning laundry easily at your convenient day and time.
+\n\n• Car and Bike servicing at home:-We provide car and bike repairs, maintenance, washing, inspections at home, and breakdown maintenance anywhere.
+\n\n• Home Computer and Mobile Repair Service at home: - We offer service for all types of repairing of laptops, desktops, mobiles at home by our well-qualified hardware engineers without any delay.
+\n\n• Packer and Movers Services:-We offer reliable services for all your end-to-end relocation needs. We will take care of packing everything properly and moving the stuff to wherever you want on time.
+\n\n• Home a Tutor:-We offer home tutor services from qualified and friendly individuals according to your need whether it is academics, singing, or dancing.
+\n\n• Dog training/walking: - We will find dog trainers/walkers near you so that your dog doesn’t feel lonely when you are busy or on a holiday.
+\n\n• Personal training: - We want you to remain healthy and thus we can provide personal training at home itself from one of our expert service providers.
+\n\n
+\n\nFuture Scope:
+\n\nWe plan to extend VACR services as well as providing a comparison between the different services so that the user can easily choose what they want.
+\n\nWe also will filter and display those service providers who are verified, expert professionals.
+\n\nVACR is also hoping to cooperate with condominium managements to manage all services provided to residents through VACR online Servers and Platforms.
+\n\n
+\n\nWhat makes VACR different?
+\n\n- All the services available to search in one app
+\n\n- Guaranteed quality of service
+\n\n- Certified, Background verified expert professional services
+\n\n- Easy and quick to book
+\n\n- Transparent and affordable price
+\n\n
+If you wish to contact VACR please email us at: vacr.services@gmail.com
+\n\n
+"
+            android:textAlignment="center"
+            android:textColor="#333333"
+            android:textSize="25dp" />
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>

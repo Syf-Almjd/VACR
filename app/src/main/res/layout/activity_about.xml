@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Main.About.About">
+
+    <Button
+        android:id="@+id/moretext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:background="@android:color/transparent"
+        android:text="More About us"
+        android:textColor="@color/black"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:textSize="12dp" />
+
+
+    <Button
+        android:id="@+id/btncontact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/search_bg"
+        android:text="Contact us via Email"
+        android:textColor="@color/black"
+        android:layout_above="@+id/fb"
+        android:layout_marginBottom="10dp"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="VACR Services"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pic"
+        android:textStyle="bold"
+ />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Inspired and Developed in 🇲🇾\nwith love from 🇵🇸"
+        android:textColor="#091E0A"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:layout_below="@+id/Name"
+        android:textAlignment="center"
+/>
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@id/backbtn"/>
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="369dp"
+        android:layout_height="301dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/vacrs"
+        android:layout_below="@id/backbtn"/>
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Providing a variety of services for all Residents \n Delivered by Well Qualified Professionals."
+        android:textAlignment="center"
+        android:textColor="#060902"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txt3"
+        android:textSize="18sp"
+  />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="80dp"
+        android:text="Connect with us:"
+        android:layout_above="@id/fb"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/ig"
+        android:layout_width="49dp"
+        android:layout_toRightOf="@+id/fb"
+        android:layout_height="39dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/instagram"
+ />
+
+
+    <ImageButton
+        android:id="@+id/call"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_toLeftOf="@+id/fb"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ic_baseline_call_24"
+ />
+
+    <Button
+        android:id="@+id/fb"
+        android:layout_alignParentBottom="true"
+        android:layout_width="49dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="39dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/facebook"
+ />
+</RelativeLayout>

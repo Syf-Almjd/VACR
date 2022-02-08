@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Villa_Services.House_clean">
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Normal House Clean"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option2"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="334dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Move-in/out cleaning"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_alignBottom="@+id/option1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="334dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="-284dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Subscribe to Monthly/Weekly/Daily House Clean"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_alignBottom="@+id/option1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Office Cleaning"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option2"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/morebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/search_bg"
+            android:fontFamily="@font/semibold"
+            android:text="Want Something Special! ✨"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="18dp" />
+        >
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>

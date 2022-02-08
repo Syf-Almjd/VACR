@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Villa_Services.TeachingMenu">
+
+    <Button
+        android:id="@+id/option1"
+        android:layout_width="155dp"
+
+        android:layout_height="100dp"
+        android:layout_below="@+id/backbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Mathematics"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+
+    <Button
+        android:id="@+id/option5"
+        android:layout_width="155dp"
+
+        android:layout_height="100dp"
+        android:layout_below="@+id/backbtn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+
+        android:text="Programming"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option4"
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_alignBottom="@+id/option1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-134dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Sciences"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option6"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_alignBottom="@+id/option1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="-268dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Other.."
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/option3"
+        android:layout_width="155dp"
+
+        android:layout_height="155dp"
+android:layout_below="@+id/backbtn"
+        android:layout_alignBottom="@+id/option1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/search_bg"
+        android:fontFamily="@font/semibold"
+        android:text="Technology"
+        android:textAllCaps="false"
+        android:textColor="#333333"
+        android:textSize="20dp" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/option5"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp">
+
+
+        <Button
+            android:id="@+id/morebtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/search_bg"
+            android:fontFamily="@font/semibold"
+            android:text="Or Anything Special! ✨"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#333333"
+            android:textSize="18dp" />
+        >
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_arrow_back_black_24dp" />
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mjd.vacrservices">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_main"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_main"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Main.About.foodbankVA"></activity>
+        <activity android:name=".Main.About.vac_services" />
+        <activity android:name=".Main.updates" />
+        <activity android:name=".Villa_Services.Service_Providers.Top_markets_VA" />
+        <activity android:name=".Villa_Services.Recycle_donate" />
+        <activity android:name=".Villa_Services.Service_Providers.CarWash_Service_proivders" />
+        <activity android:name=".Main.About.contact_options" />
+        <activity android:name=".Main.WebView_Page" />
+        <activity android:name=".Main.no_internet" />
+        <activity android:name=".Main.NewsPage" />
+        <activity android:name=".Villa_Services.Hair_Dressing" />
+        <activity android:name=".Main.About.VACR_connect" />
+        <activity android:name=".Main.About.Contact_pageVA" />
+        <activity android:name=".Main.About.FeedbackVA" />
+        <activity android:name=".Villa_Services.Service_Providers.Top_coaches" />
+        <activity android:name=".Locations.location_workout" />
+        <activity android:name=".Villa_Services.TeachingMenu" />
+        <activity android:name=".KL_Services.CarWashKL" />
+        <activity android:name=".KL_Services.House_CleaningKL" />
+        <activity android:name=".Locations.location_cleaning" />
+        <activity android:name=".KL_Services.martKL" />
+        <activity android:name=".Locations.location_carwash" />
+        <activity android:name=".Locations.location_mart" />
+        <activity android:name=".Villa_Services.dog_walk" />
+        <activity android:name=".Villa_Services.about_coach_geene" />
+        <activity android:name=".Villa_Services.CarFix" />
+        <activity android:name=".Villa_Services.Workout" />
+        <activity android:name=".Villa_Services.Tutor" />
+        <activity android:name=".Villa_Services.CarWash" />
+        <activity android:name=".Villa_Services.House_clean" />
+        <activity android:name=".Villa_Services.mart" />
+        <activity android:name=".Main.Confirm_Order" />
+        <activity android:name=".Villa_Services.laundry" />
+        <activity android:name=".Main.About.MoreAboutUs" />
+        <activity android:name=".Villa_Services.Service_Providers.WiresPage" />
+        <activity android:name=".Main.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main.MainActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".Main.About.infoPage" />
+        <activity android:name=".Main.About.About" />
+        <activity android:name=".Main.About.VAAbout" />
+        <activity android:name=".Main.About.vacrcontact" />
+    </application>
+
+</manifest>
